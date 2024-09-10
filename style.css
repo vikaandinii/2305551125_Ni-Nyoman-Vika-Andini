@@ -1,7 +1,7 @@
 /* Mengatur tampilan body */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fce4ec; /* Warna latar belakang merah muda */
+    background-color: #fce4ec; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body {
 
 /* Container untuk form */
 .form-container, .result-container {
-    background-color: #ffffff; /* Warna putih untuk container */
+    background-color: #ffffff; 
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,7 @@ body {
 
 /* Styling untuk judul */
 h2, h3 {
-    color: #000000; /* Warna hitam */
+    color: #000000; 
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -42,7 +42,7 @@ h2, h3 {
 
 .input-group label {
     font-weight: 600;
-    color: #000000; /* Warna hitam */
+    color: #000000; 
     display: block;
     margin-bottom: 8px;
 }
@@ -51,17 +51,17 @@ h2, h3 {
 input[type="text"], input[type="number"] {
     width: 100%;
     padding: 12px 15px;
-    border: 2px solid #ffcdd2; /* Warna merah muda */
+    border: 2px solid #ffcdd2;
     border-radius: 8px;
     box-sizing: border-box;
     font-size: 16px;
-    color: #000000; /* Warna hitam */
+    color: #000000; 
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 input[type="text"]:focus, input[type="number"]:focus {
-    border-color: #000000; /* Warna hitam */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Warna hitam */
+    border-color: #000000; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
     outline: none;
 }
 
@@ -80,25 +80,25 @@ button {
 }
 
 button:hover {
-    background-color: #c62828; /* Warna merah lebih terang */
+    background-color: #c62828; 
 }
 
 /* Styling untuk hasil yang ditampilkan */
 .result p {
     font-size: 18px;
-    color: #000000; /* Warna hitam */
+    color: #000000; 
     line-height: 1.6;
 }
 
 .result p strong {
-    color: #000000; /* Warna hitam */
+    color: #000000; 
 }
 
 /* Tombol kembali */
 .back-button {
     display: inline-block;
     padding: 12px 25px;
-    background-color: #d32f2f; /* Warna merah gelap */
+    background-color: #d32f2f; 
     color: white;
     border-radius: 8px;
     text-decoration: none;
@@ -109,7 +109,7 @@ button:hover {
 }
 
 .back-button:hover {
-    background-color: #c62828; /* Warna merah lebih terang */
+    background-color: #c62828;
 }
 
 .logo {

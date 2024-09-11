@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
         die("Koneksi gagal: " . $conn->connect_error);
     }
 
-    // Ambil data dari form dan validasi
+    // Mengambil data dari form dan melakukan validasi
     $nama = trim($_POST['nama']);
     $nim = trim($_POST['nim']);
     $nilai = trim($_POST['nilai']);
@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
         die("Nilai harus berupa angka antara 0 dan 100.");
     }
 
-    // Fungsi untuk mengkonversi nilai angka ke nilai huruf
+    // Fungsi untuk mengubah nilai angka ke nilai huruf
     function konversiNilaiHuruf($nilai) {
         if ($nilai >= 80) {
             return "A";
@@ -97,7 +97,7 @@ if (isset($_POST['submit'])) {
 
     $nilai_huruf = konversiNilaiHuruf($nilai);
 
-    // Menyimpan data ke database
+    // Menyimpan data ke dalam database
     $sql = "INSERT INTO nilai (nama, nim, nilai_angka, nilai_huruf)
             VALUES ('$nama', '$nim', '$nilai', '$nilai_huruf')";
 
